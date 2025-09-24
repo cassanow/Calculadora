@@ -11,24 +11,25 @@
     <input type="text" id="tela" class="visor" readonly>
     </div>
     <div class="botoes">
-    <button onclick="">7</button>
-    <button onclick="">8</button>
-    <button onclick="">9</button>
-    <button onclick="">-</button><br>
-    <button onclick="">4</button>
-    <button onclick="">5</button>
-    <button onclick="">6</button>
-    <button onclick="">x</button><br>
-    <button onclick="">1</button>
-    <button onclick="">2</button>
-    <button onclick="">3</button>
-    <button onclick="">/</button><br>
-    <button onclick="">0</button>
-    <button onclick="">.</button>
-    <button onclick="" class="apagar">C</button>
-    <button onclick="">+</button><br>
+    <button onclick="inserir(7)">7</button>
+    <button onclick="inserir(8)">8</button>
+    <button onclick="inserir(9)">9</button>
+    <button onclick="operador('-')">-</button><br>
+    <button onclick="inserir(4)">4</button>
+    <button onclick="inserir(5)">5</button>
+    <button onclick="inserir(6)">6</button>
+    <button onclick="operador('x')">x</button><br>
+    <button onclick="inserir(1)">1</button>
+    <button onclick="inserir(2)">2</button>
+    <button onclick="inserir(3)">3</button>
+    <button onclick="operador('/')">/</button><br>
+    <button onclick="inserir(0)">0</button>
+    <button onclick="inserirPonto()">.</button>
+    <button onclick="calcular()">=</button>
+    <button onclick="operador('+')">+</button><br>
+    <button onclick="apagar()" class="apagar">C</button>
     </div>
    
 </body>
-<script href="script.js"></script>
+<script src="script.js"></script>
 </html>
