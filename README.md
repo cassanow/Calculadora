@@ -1,4 +1,4 @@
-# Calculadora Web – Atividade de Faculdade
+# Calculadora Básica – Atividade de Faculdade
 
 Este projeto é uma **calculadora simples** criada como atividade acadêmica.  
 Permite realizar operações básicas como adição (+), subtração (-), multiplicação (x), divisão (/), inserção de números decimais (.) e limpar o visor (C).
